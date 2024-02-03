@@ -1,0 +1,23 @@
+.dailyInfo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:10px;
+    font-size: 20px;
+    color: blanchedalmond;
+    margin-bottom: 80px;
+}
+
+.head{
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lineChartContainer {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    width: 600px;
+    margin: 0 auto; 
+  }
